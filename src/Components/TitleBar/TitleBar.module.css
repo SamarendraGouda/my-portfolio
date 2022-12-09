@@ -1,0 +1,23 @@
+.container{
+    height: 38px;
+   background: #3C3C3C;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    padding-left: 60px;
+    line-height: 6px;
+    
+
+}
+
+.titleItems li{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    padding-right:30px ;
+    
+    
+
+}
