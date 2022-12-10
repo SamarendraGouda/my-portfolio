@@ -7,12 +7,17 @@ const Sidebar = () => {
 
     return (
         <div className={styles.container}>
-            <img src='/assets/icons/files.png' alt=''/>
-            <img src='/assets/icons/search.png' alt=''/>
-            <img src='/assets/icons/source.png' alt=''/>
-            <img src='/assets/icons/debug.png' alt=''/>
-            <img src='/assets/icons/profile-circle.png' alt=''/>
-            <img src='/assets/icons/settings-gear.png' alt=''/>
+            <div className={styles.subcontainer}>
+            <img  className={styles.icon} src='/assets/icons/files.png' alt=''/>
+            <img className={styles.icon} src='/assets/icons/search.png' alt=''/>
+            <img className={styles.icon} src='/assets/icons/source.png' alt=''/>
+            <img className={styles.icon} src='/assets/icons/debug.png' alt=''/>
+            </div>
+            
+            <div className={styles.subcontainer}>
+            <img className={styles.icon} src='/assets/icons/profile-circle.png' alt=''/>
+            <img className={styles.icon} src='/assets/icons/settings-gear.png' alt=''/>
+            </div>
         </div>
     );
 };
