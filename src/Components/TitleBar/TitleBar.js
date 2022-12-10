@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './TitleBar.module.css';
-import Sidebar from '../Sidebar/Sidebar';
+import ActivityBar from '../ActivityBar/ActivityBar';
 
 
 const TitleBar = () => {
@@ -20,7 +20,7 @@ const TitleBar = () => {
                     <li>Help</li>
                 </ul>
             </div>
-            <Sidebar/>
+            <ActivityBar/>
         </div>
     );
 };
