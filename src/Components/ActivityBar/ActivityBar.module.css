@@ -1,8 +1,12 @@
+.bigcontainer{
+    display: flex;
+    flex-direction: row;
+}
 .container{
     display: flex;
     flex-direction: column;
-    width: 60px;
-    height: 94.8vh;
+    width: 4.2vw;
+    height: 92.3vh;
     background: #333333;
     z-index: -1;
     justify-content: space-between;
@@ -14,5 +18,6 @@
 }
 .icon{
     padding: 16px;
+    scale: 0.9;
 
 }

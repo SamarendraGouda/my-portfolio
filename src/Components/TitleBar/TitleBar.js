@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './TitleBar.module.css';
 import ActivityBar from '../ActivityBar/ActivityBar';
+import StatusBar from '../StatusBar/StatusBar';
 
 
 const TitleBar = () => {
@@ -21,6 +22,7 @@ const TitleBar = () => {
                 </ul>
             </div>
             <ActivityBar/>
+            <StatusBar />
         </div>
     );
 };

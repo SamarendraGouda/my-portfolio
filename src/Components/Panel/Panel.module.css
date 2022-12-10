@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 73.3vw;
+    height: 92.3vh;
+    background: #1E1E1E;
+
+}

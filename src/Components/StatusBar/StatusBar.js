@@ -1,8 +1,9 @@
 import React from 'react';
-import styles from './Sidebar.module.css';
+import styles from './StatusBar.module.css';
 
-const Sidebar = () => {
-    
+
+const StatusBar = () => {
+
     return (
         <div className={styles.container}>
             
@@ -11,4 +12,5 @@ const Sidebar = () => {
 };
 
 
-export default Sidebar;
+
+export default StatusBar;
