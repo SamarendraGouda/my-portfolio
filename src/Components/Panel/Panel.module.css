@@ -6,3 +6,9 @@
     background: #1E1E1E;
 
 }
+
+.navbar{
+    height: 4vh;
+    display: flex;
+    background: #252526;
+}
