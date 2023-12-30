@@ -65,3 +65,43 @@
 .projectLinks:hover {
   color: #3aa6b5;
 }
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projectImage {
+    justify-content: flex-start;
+  }
+  .projectCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  .projectName {
+    font-size: 1.25rem;
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projectDescription {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+  .projectLinks {
+    font-size: 0.75rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

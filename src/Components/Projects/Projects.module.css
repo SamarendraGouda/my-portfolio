@@ -24,3 +24,16 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5% 15%;
+  }
+  .projectHeading {
+    font-size: 1.25rem;
+  }
+}

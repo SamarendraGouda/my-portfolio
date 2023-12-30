@@ -44,3 +44,25 @@
   color: #868aa4;
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5% 0;
+  }
+  .experienceHeading {
+    font-size: 1.25rem;
+  }
+  .experienceCardHeading {
+    font-size: 1rem;
+  }
+  .experienceCardSubHeading {
+    font-size: 1rem;
+  }
+  .experienceCardDuration {
+    font-size: 0.75rem;
+  }
+}

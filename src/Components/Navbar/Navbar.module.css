@@ -8,6 +8,7 @@
   height: auto;
   padding: 1.5% 30%;
   gap: 1.5rem;
+  width: 100%;
   border-bottom: #000 1px solid;
 }
 
@@ -79,7 +80,7 @@
 }
 
 .menuItem:hover {
-  color: #3AA6B5;
+  color: #3aa6b5;
 }
 
 .social {
@@ -93,4 +94,29 @@
 
 .social:hover {
   color: #6adac4;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+    padding: 7.5% 15%;
+    border: none;
+  }
+  .image {
+    display: none;
+  }
+  .logo {
+    font-size: 1.25rem;
+    color: #6adac4;
+  }
+  .designation {
+    font-size: 0.75rem;
+  }
+  .menu {
+    display: none;
+  }
 }

@@ -1,11 +1,20 @@
 import React from "react";
 import styles from "./About.module.css";
+import me from "../../assets/1000031473.jpg";
 
 const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.aboutText}>
         <div className={styles.aboutHeading}>About Me</div>
+        {window.innerWidth < 425 ? (
+          <div className={styles.aboutImage}>
+            <img
+              src={me}
+              alt="profile"
+            />
+          </div>
+        ) : null}
         <div className={styles.aboutDescription}>
           I am a 3rd year undergraduate student at IIT Roorkee, pursuing B.Tech
           in Chemical Engineering. I am interested in Software Development,
@@ -19,14 +28,19 @@ const About = () => {
         <div className={styles.aboutDescription}>
           <ul>
             <li>
-              <b>Programming Languages:</b> C++, Python, JavaScript, TypeScript, Rust
+              <b>Programming Languages:</b> C++, Python, JavaScript, TypeScript,
+              Rust
             </li>
             <li>
-              <b>Web Development:</b> ReactJS, Express, Django, Actix, PostgreSQL,
-              MongoDB
+              <b>Web Development:</b> ReactJS, Express, Django, Actix,
+              PostgreSQL, MongoDB
             </li>
-            <li><b>Blockchain Technology:</b> Solidity, EVM, Cryptography</li>
-            <li><b>Tools:</b> Git & GitHub, Linux, Postman, Nginx</li>
+            <li>
+              <b>Blockchain Technology:</b> Solidity, EVM, Cryptography
+            </li>
+            <li>
+              <b>Tools:</b> Git & GitHub, Linux, Postman, Nginx
+            </li>
           </ul>
         </div>
       </div>

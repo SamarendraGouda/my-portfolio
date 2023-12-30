@@ -45,3 +45,20 @@
   align-items: flex-start;
   gap: 1rem;
 }
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5% 15% 6% 15%;
+  }
+  .achievementsHeading {
+    font-size: 1.25rem;
+  }
+  .achievementName {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
