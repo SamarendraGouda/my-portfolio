@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2c7be07d.css",
-    "main.js": "/my-portfolio/static/js/main.3442b147.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/FiraCodeNerdFont-Regular.ttf": "/my-portfolio/static/media/FiraCodeNerdFont-Regular.920848f903b89c061dc7.ttf",
-    "static/media/1000031473.jpg": "/my-portfolio/static/media/1000031473.e0f8b3abe3a590c70277.jpg",
-    "index.html": "/my-portfolio/index.html",
-    "main.2c7be07d.css.map": "/my-portfolio/static/css/main.2c7be07d.css.map",
-    "main.3442b147.js.map": "/my-portfolio/static/js/main.3442b147.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.32859205.css",
+    "main.js": "/static/js/main.9db4c024.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/FiraCodeNerdFont-Regular.ttf": "/static/media/FiraCodeNerdFont-Regular.920848f903b89c061dc7.ttf",
+    "static/media/1000031473.jpg": "/static/media/1000031473.e0f8b3abe3a590c70277.jpg",
+    "index.html": "/index.html",
+    "main.32859205.css.map": "/static/css/main.32859205.css.map",
+    "main.9db4c024.js.map": "/static/js/main.9db4c024.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c7be07d.css",
-    "static/js/main.3442b147.js"
+    "static/css/main.32859205.css",
+    "static/js/main.9db4c024.js"
   ]
 }
