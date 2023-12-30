@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  margin: 1.5% 30%;
+  gap: 1rem;
+}
+
+.aboutHeading {
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #6adac4;
+  margin: 1rem 0;
+}
+
+.aboutDescription {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #868aa4;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.aboutDescription ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

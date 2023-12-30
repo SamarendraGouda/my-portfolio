@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  margin: 1.5% 30%;
+  gap: 0.5rem;
+  /* border-bottom: #868aa4 1px solid; */
+}
+
+.experienceCard {
+  /* border-bottom: #868aa4 1px solid; */
+}
+
+.experienceHeading {
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #6adac4;
+  margin: 1rem 0;
+}
+
+.experienceCardHeading {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #6adac4;
+  margin: 1rem 0;
+}
+
+.experienceCardSubHeading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Fira Code";
+  color: #868aa4;
+  margin: 1rem 0;
+}
+
+.experienceCardDuration {
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #868aa4;
+  margin: 1rem 0;
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Fira Code";
+  src: url(./fonts/FiraCode/FiraCodeNerdFont-Regular.ttf);
+}
+
+body {
+  background: #1a1b26;
+  font-family: "Fira Code";
+  color: #868aa4;
+}

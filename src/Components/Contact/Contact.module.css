@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-top: #868aa470 1px solid;
+}
+
+.contactHeading {
+  font-size: 1.75rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #6adac4;
+  margin: 1rem 0;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  color: #6adac4;
+}
+
+.list {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+
+.list:hover {
+  color: #3aa6b5;
+}

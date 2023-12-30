@@ -1,0 +1,96 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #16161e;
+  height: auto;
+  padding: 1.5% 30%;
+  gap: 1.5rem;
+  border-bottom: #000 1px solid;
+}
+
+.image img {
+  width: 96px;
+  height: 96px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/*Animation to progressbar*/
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: #3aa6b5;
+  z-index: 9999;
+  animation: fillProgressBar 2s ease forwards;
+}
+
+/* Keyframe animation */
+@keyframes fillProgressBar {
+  0% {
+    width: 0; /* Start with 0 width */
+  }
+  100% {
+    width: 100%; /* End with full width */
+    height: 0;
+  }
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  color: #868aa4;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Fira Code";
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  color: #6adac4;
+  font-family: "Fira Code";
+}
+
+.menuItem {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem:hover {
+  color: #3AA6B5;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  font-family: "Fira Code";
+  cursor: pointer;
+}
+
+.social:hover {
+  color: #6adac4;
+}

@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  margin: 1.5% 0;
+  width: inherit;
+  gap: 2rem;
+}
+
+.projectImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.projectImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+  width: 100%;
+}
+
+.projectName {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Fira Code";
+  color: #868aa4;
+  margin: 1rem 0;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Fira Code";
+  color: #868aa4;
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+.projectLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: auto;
+  margin: 1.5% 0;
+  gap: 0.5rem;
+  width: 100%;
+  color: #6adac4;
+  font-family: "Fira Code";
+  cursor: pointer;
+}
+
+.projectLinks:hover {
+  color: #3aa6b5;
+}
