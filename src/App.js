@@ -1,10 +1,7 @@
-import './App.css';
-import TitleBar from './Components/TitleBar/TitleBar';
+import "./App.css";
 
 function App() {
-  return (
-    <TitleBar/>
-  );
+  return <></>;
 }
 
 export default App;
