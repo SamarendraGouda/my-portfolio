@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.32859205.css",
-    "main.js": "/static/js/main.9db4c024.js",
+    "main.js": "/static/js/main.4acc5754.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/FiraCodeNerdFont-Regular.ttf": "/static/media/FiraCodeNerdFont-Regular.920848f903b89c061dc7.ttf",
     "static/media/1000031473.jpg": "/static/media/1000031473.e0f8b3abe3a590c70277.jpg",
     "index.html": "/index.html",
     "main.32859205.css.map": "/static/css/main.32859205.css.map",
-    "main.9db4c024.js.map": "/static/js/main.9db4c024.js.map",
+    "main.4acc5754.js.map": "/static/js/main.4acc5754.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32859205.css",
-    "static/js/main.9db4c024.js"
+    "static/js/main.4acc5754.js"
   ]
 }
