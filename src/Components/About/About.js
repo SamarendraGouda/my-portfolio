@@ -9,18 +9,18 @@ const About = () => {
         <div className={styles.aboutHeading}>About Me</div>
         {window.innerWidth <= 430 ? (
           <div className={styles.aboutImage}>
-            <img
-              src={me}
-              alt="profile"
-            />
+            <img src={me} alt="profile" />
           </div>
         ) : null}
         <div className={styles.aboutDescription}>
-          I am a 3rd year undergraduate student at IIT Roorkee, pursuing B.Tech
-          in Chemical Engineering. I am interested in Software Development,
-          DevOps and Blockchain Technology. I am a quick learner and a team
-          player. I am always looking for opportunities to learn new things and
-          improve my skills.
+          As a third-year undergraduate at IIT Roorkee, enrolled in B.Tech
+          Chemical Engineering, my passion extends beyond the realm of my core
+          discipline. I harbor a keen interest in Software Development, DevOps,
+          and Blockchain Technology. Adapting swiftly and collaborating
+          seamlessly within a team are integral parts of my ethos. I'm
+          inherently driven by an insatiable thirst for knowledge, constantly
+          seeking avenues to broaden my skill set and enhance my proficiency in
+          diverse domains.
         </div>
       </div>
       <div className={styles.aboutText}>
@@ -36,10 +36,10 @@ const About = () => {
               PostgreSQL, MongoDB
             </li>
             <li>
-              <b>Blockchain Technology:</b> Solidity, EVM, Cryptography
+              <b>Blockchain Technology:</b> Solidity, Defi, EVM, Cryptography
             </li>
             <li>
-              <b>Tools:</b> Git & GitHub, Linux, Postman, Nginx
+              <b>Tools:</b> Git & GitHub, Linux, Postman, Docker, Nginx
             </li>
           </ul>
         </div>

@@ -5,8 +5,10 @@ import { FaEthereum } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import toast, { Toaster } from "react-hot-toast";
 import copy from "copy-to-clipboard";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const handleClickGithub = () => {
     window.open("https://github.com/SamarendraGouda");
   };
@@ -59,10 +61,27 @@ const Navbar = () => {
           </div>
           <div className={styles.designation}>Full-Stack Developer</div>
           <div className={styles.menu}>
-            <div className={styles.menuItem}>Home</div>
-            <div className={styles.menuItem}>Experience</div>
-            <div className={styles.menuItem}>Projects</div>
-            <div className={styles.menuItem}>Achievements</div>
+            <div className={styles.menuItem} onClick={() => navigate("/")}>
+              Home
+            </div>
+            <div
+              className={styles.menuItem}
+              onClick={() => navigate("/experience")}
+            >
+              Experience
+            </div>
+            <div
+              className={styles.menuItem}
+              onClick={() => navigate("/projects")}
+            >
+              Projects
+            </div>
+            <div
+              className={styles.menuItem}
+              onClick={() => navigate("/achievements")}
+            >
+              Achievements
+            </div>
           </div>
         </div>
       </div>
