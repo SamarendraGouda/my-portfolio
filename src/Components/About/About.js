@@ -7,7 +7,7 @@ const About = () => {
     <div className={styles.container}>
       <div className={styles.aboutText}>
         <div className={styles.aboutHeading}>About Me</div>
-        {window.innerWidth < 425 ? (
+        {window.innerWidth <= 430 ? (
           <div className={styles.aboutImage}>
             <img
               src={me}

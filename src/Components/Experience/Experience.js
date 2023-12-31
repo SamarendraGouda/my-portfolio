@@ -31,6 +31,20 @@ const Experience = () => {
         </div>
         <div className={styles.experienceCardRight}></div>
       </div>
+      <div className={styles.experienceCard}>
+        <div className={styles.experienceCardLeft}>
+          <div className={styles.experienceCardHeading}>
+            Joint Secretary | Developer
+          </div>
+          <div className={styles.experienceCardSubHeading}>
+            Blockchain Society, IIT Roorkee
+          </div>
+          <div className={styles.experienceCardDuration}>
+            Oct 2022 - Present
+          </div>
+        </div>
+        <div className={styles.experienceCardRight}></div>
+      </div>
     </div>
   );
 };

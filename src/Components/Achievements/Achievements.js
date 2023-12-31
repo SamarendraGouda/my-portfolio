@@ -77,7 +77,7 @@ const Achievements = () => {
               <div>
                 <div className={styles.achievementTitle}>
                   <div className={styles.achievementName}>
-                    Gold Medalist, InterIIT Tech Meet 11.0 | IIT Kanpur | 2023
+                    Gold Medalist, Inter IIT Tech Meet 11.0 | IIT Kanpur | 2022
                   </div>
                 </div>
               </div>

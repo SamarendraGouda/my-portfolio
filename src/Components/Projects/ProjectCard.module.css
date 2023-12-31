@@ -7,6 +7,9 @@
   margin: 1.5% 0;
   width: inherit;
   gap: 2rem;
+  background: #16161e;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
 }
 
 .projectImage {
@@ -28,7 +31,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   height: auto;
-  width: 100%;
+  width: 80%;
 }
 
 .projectName {
@@ -66,9 +69,23 @@
   color: #3aa6b5;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 820px) {
+  .container {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0;
+    border: none;
+    margin-top: 1rem;
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 430px) {
   .container {
     width: 100%;
+    padding: 12% 0%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -86,7 +103,9 @@
     font-size: 1.25rem;
     margin: 0 15%;
     display: flex;
+    width: 70%;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
   }
@@ -96,6 +115,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 0.75rem;
   }
   .projectLinks {
