@@ -22,6 +22,7 @@ const Navbar = () => {
           style: {
             border: "1px solid #6adac4",
             padding: "16px",
+            fontSize: "0.75rem",
             color: "#868aa4",
             background: "#16161e",
           },
