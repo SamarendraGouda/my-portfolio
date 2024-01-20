@@ -10,6 +10,18 @@ const Experience = () => {
           <div className={styles.experienceCardHeading}>
             Software Engineering Intern
           </div>
+          <div className={styles.experienceCardSubHeading}>Instadapp</div>
+          <div className={styles.experienceCardDuration}>
+            Aug 2023 - Present
+          </div>
+        </div>
+        <div className={styles.experienceCardRight}></div>
+      </div>
+      <div className={styles.experienceCard}>
+        <div className={styles.experienceCardLeft}>
+          <div className={styles.experienceCardHeading}>
+            Software Engineering Intern
+          </div>
           <div className={styles.experienceCardSubHeading}>BlockFlow</div>
           <div className={styles.experienceCardDuration}>
             Aug 2023 - Nov 2023
